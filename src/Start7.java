@@ -3,21 +3,21 @@ import java.util.Scanner;
 public class Start7 {
     public static void main(String[] args) {
 //        Scanner sc = new Scanner(System.in);
-//        System.out.println("Сколько чисел вы хотите ввести");
+//        System.out.println("РЎРєРѕР»СЊРєРѕ С‡РёСЃРµР» РІС‹ С…РѕС‚РёС‚Рµ РІРІРµСЃС‚Рё");
 //        int n = sc.nextInt();
 //        while (n > 0){
-//            System.out.println("введите целое число: ");
+//            System.out.println("РІРІРµРґРёС‚Рµ С†РµР»РѕРµ С‡РёСЃР»Рѕ: ");
 //            int k = sc.nextInt();
-//            System.out.println("ваше число в квадрате: " + (k * k));
+//            System.out.println("РІР°С€Рµ С‡РёСЃР»Рѕ РІ РєРІР°РґСЂР°С‚Рµ: " + (k * k));
 //
 //
 //        }
         Scanner sc = new Scanner(System.in);
-        System.out.println("введите год Вашего рождения ?");
+        System.out.println("РІРІРµРґРёС‚Рµ РіРѕРґ Р’Р°С€РµРіРѕ СЂРѕР¶РґРµРЅРёСЏ ?");
         int a = sc.nextInt();
-        System.out.println("введите какой сегодня год ? ");
+        System.out.println("РІРІРµРґРёС‚Рµ РєР°РєРѕР№ СЃРµРіРѕРґРЅСЏ РіРѕРґ ? ");
         int b = sc.nextInt();
-        System.out.println("вам " + (b - a) + " лет!");
+        System.out.println("РІР°Рј " + (b - a) + " Р»РµС‚!");
 
 
 

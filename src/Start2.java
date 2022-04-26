@@ -1,16 +1,16 @@
 import java.util.Scanner;
 /*
-Спросить у пользователя одно целое число типа int
-С помощью цикла while вывести столько же раз фразу "Цикл while"
+РЎРїСЂРѕСЃРёС‚СЊ Сѓ РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ РѕРґРЅРѕ С†РµР»РѕРµ С‡РёСЃР»Рѕ С‚РёРїР° int
+РЎ РїРѕРјРѕС‰СЊСЋ С†РёРєР»Р° while РІС‹РІРµСЃС‚Рё СЃС‚РѕР»СЊРєРѕ Р¶Рµ СЂР°Р· С„СЂР°Р·Сѓ "Р¦РёРєР» while"
  */
 
 public class Start2 {
     public static void main(String[] args) {
-        System.out.println("введите число");
+        System.out.println("РІРІРµРґРёС‚Рµ С‡РёСЃР»Рѕ");
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         while (n > 0) {
-            System.out.println("Цикл while");
+            System.out.println("Р¦РёРєР» while");
             n -= 1;
         }
     }

@@ -5,20 +5,20 @@ public class Start4 {
         short x = 2;
         int y = 3;
         long z = 6;
-        System.out.println("сумма чисел: " + (x + y + z));
-        System.out.println("произведение чисел: " + x * y * z);
-        System.out.println("результат равенства: " + ((x + y) == z));
-        System.out.println("введите число: ");
+        System.out.println("СЃСѓРјРјР° С‡РёСЃРµР»: " + (x + y + z));
+        System.out.println("РїСЂРѕРёР·РІРµРґРµРЅРёРµ С‡РёСЃРµР»: " + x * y * z);
+        System.out.println("СЂРµР·СѓР»СЊС‚Р°С‚ СЂР°РІРµРЅСЃС‚РІР°: " + ((x + y) == z));
+        System.out.println("РІРІРµРґРёС‚Рµ С‡РёСЃР»Рѕ: ");
         Scanner sc = new Scanner(System.in);
         int e = sc.nextInt();
         if (e > 0){
-            System.out.println("положительное число");
+            System.out.println("РїРѕР»РѕР¶РёС‚РµР»СЊРЅРѕРµ С‡РёСЃР»Рѕ");
         }
         if (e < 0){
-            System.out.println("отрицательное число");
+            System.out.println("РѕС‚СЂРёС†Р°С‚РµР»СЊРЅРѕРµ С‡РёСЃР»Рѕ");
         }
         if (e == 0){
-            System.out.println("ноль");
+            System.out.println("РЅРѕР»СЊ");
         }
 
     }

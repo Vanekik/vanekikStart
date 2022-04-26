@@ -18,13 +18,13 @@ public class Start10 {
 //            System.out.println(k);
 //        }
 //        for (int k = 0; k <= 10; k++) {
-//            System.out.println("ïðèâåò ìèð");
+//            System.out.println("Ð¿Ñ€Ð¸Ð²ÐµÑ‚ Ð¼Ð¸Ñ€");
 //        Scanner scanner = new Scanner(System.in);
-//        System.out.println("ââåäèòå ÷èñëî, íà ñêîëüêî ëåò âû õîòèòå ðàññ÷èòàòü ïðèáûëü");
+//        System.out.println("Ð²Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾, Ð½Ð° ÑÐºÐ¾Ð»ÑŒÐºÐ¾ Ð»ÐµÑ‚ Ð²Ñ‹ Ñ…Ð¾Ñ‚Ð¸Ñ‚Ðµ Ñ€Ð°ÑÑÑ‡Ð¸Ñ‚Ð°Ñ‚ÑŒ Ð¿Ñ€Ð¸Ð±Ñ‹Ð»ÑŒ");
 //        int n = scanner.nextInt();
 
 //        for (int k = 0; k < n; k++) {
-//            System.out.println("Öèêë ðàáîòàåò " + (k + 1) + " ðàç");
+//            System.out.println("Ð¦Ð¸ÐºÐ» Ñ€Ð°Ð±Ð¾Ñ‚Ð°ÐµÑ‚ " + (k + 1) + " Ñ€Ð°Ð·");
 
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
@@ -33,7 +33,7 @@ public class Start10 {
         for(int k = 0; k < n ; k++)
         {
             balance *= mnozh;
-            System.out.println("Ïîñëå " + (k + 1) + " ëåò: " + balance + " ðóáëåé");
+            System.out.println("ÐŸÐ¾ÑÐ»Ðµ " + (k + 1) + " Ð»ÐµÑ‚: " + balance + " Ñ€ÑƒÐ±Ð»ÐµÐ¹");
         }
         System.out.println(balance);
         System.out.println(100000*Math.pow(1.11,n));

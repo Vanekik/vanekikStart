@@ -1,42 +1,42 @@
 public class Start6 {
     public static void main(String[] args) {
-        // оператор свитч
+        // РѕРїРµСЂР°С‚РѕСЂ СЃРІРёС‚С‡
         int i = 9;
         switch (i) {
             case 1:
-                System.out.println("понедельник");
+                System.out.println("РїРѕРЅРµРґРµР»СЊРЅРёРє");
                 break;
             case 2:
-                System.out.println("Вторник");
+                System.out.println("Р’С‚РѕСЂРЅРёРє");
                 break;
             case 3:
-                System.out.println("Среда");
+                System.out.println("РЎСЂРµРґР°");
                 break;
             case 4:
-                System.out.println("Четверг");
+                System.out.println("Р§РµС‚РІРµСЂРі");
                 break;
             case 5:
-                System.out.println("Пятница");
+                System.out.println("РџСЏС‚РЅРёС†Р°");
                 break;
             case 6:
-                System.out.println("Суббота");
+                System.out.println("РЎСѓР±Р±РѕС‚Р°");
                 break;
             case 7:
-                System.out.println("Воскресение");
+                System.out.println("Р’РѕСЃРєСЂРµСЃРµРЅРёРµ");
                 break;
             default:
-                System.out.println("Указан неправильный день недели");
+                System.out.println("РЈРєР°Р·Р°РЅ РЅРµРїСЂР°РІРёР»СЊРЅС‹Р№ РґРµРЅСЊ РЅРµРґРµР»Рё");
         }
-        // массивы
+        // РјР°СЃСЃРёРІС‹
 
         int[] intArrey = new int[]{5, 10, 15, 20, 25};
         System.out.println("intArray length: " + intArrey.length);
-        System.out.println("третий элемент массива: " + intArrey[2]);
-        System.out.println("первый элемент до изменения: " + intArrey[0]);
+        System.out.println("С‚СЂРµС‚РёР№ СЌР»РµРјРµРЅС‚ РјР°СЃСЃРёРІР°: " + intArrey[2]);
+        System.out.println("РїРµСЂРІС‹Р№ СЌР»РµРјРµРЅС‚ РґРѕ РёР·РјРµРЅРµРЅРёСЏ: " + intArrey[0]);
         intArrey [0] = 100;
-        System.out.println("Первый элемент после изменения: " + intArrey[0]);
+        System.out.println("РџРµСЂРІС‹Р№ СЌР»РµРјРµРЅС‚ РїРѕСЃР»Рµ РёР·РјРµРЅРµРЅРёСЏ: " + intArrey[0]);
 
-        // циклы
+        // С†РёРєР»С‹
         int q = 5;
         while (q <= 100){
             System.out.println(q);

@@ -2,20 +2,20 @@ import java.util.Scanner;
 
 public class Start3 {
     public static void main(String[] args) {
-//        Спросить у пользователя три целых числа a, b и c
-//        В случае, если сумма a и b = с, вывести "a+b=c"
-//        дополнил с "иначе"
+//        РЎРїСЂРѕСЃРёС‚СЊ Сѓ РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ С‚СЂРё С†РµР»С‹С… С‡РёСЃР»Р° a, b Рё c
+//        Р’ СЃР»СѓС‡Р°Рµ, РµСЃР»Рё СЃСѓРјРјР° a Рё b = СЃ, РІС‹РІРµСЃС‚Рё "a+b=c"
+//        РґРѕРїРѕР»РЅРёР» СЃ "РёРЅР°С‡Рµ"
         Scanner sc = new Scanner(System.in);
-        System.out.println("введите целое число a");
+        System.out.println("РІРІРµРґРёС‚Рµ С†РµР»РѕРµ С‡РёСЃР»Рѕ a");
         int a = sc.nextInt();
-        System.out.println("введите целое число b");
+        System.out.println("РІРІРµРґРёС‚Рµ С†РµР»РѕРµ С‡РёСЃР»Рѕ b");
         int b = sc.nextInt();
-        System.out.println("введите целое число c");
+        System.out.println("РІРІРµРґРёС‚Рµ С†РµР»РѕРµ С‡РёСЃР»Рѕ c");
         int c = sc.nextInt();
         if (a + b == c){
-            System.out.println("a + b равно c");
+            System.out.println("a + b СЂР°РІРЅРѕ c");
         }else {
-            System.out.println("a + b не равно c");
+            System.out.println("a + b РЅРµ СЂР°РІРЅРѕ c");
         }
     }
 }

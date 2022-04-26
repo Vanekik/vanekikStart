@@ -2,21 +2,21 @@ import java.util.Scanner;
 
 public class Start5 {
     public static void main(String[] args) {
-        System.out.println(" сумма двух чисел ");
-        System.out.println("введите два числа по очереди");
+        System.out.println(" СЃСѓРјРјР° РґРІСѓС… С‡РёСЃРµР» ");
+        System.out.println("РІРІРµРґРёС‚Рµ РґРІР° С‡РёСЃР»Р° РїРѕ РѕС‡РµСЂРµРґРё");
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         while (true) {
             if (a <= 0) {
-                System.out.println("число слишком маленькое");
+                System.out.println("С‡РёСЃР»Рѕ СЃР»РёС€РєРѕРј РјР°Р»РµРЅСЊРєРѕРµ");
                 break;
             }
         }
         int b = sc.nextInt();
         if (b <= 0) {
-            System.out.println("число слишком маленькое");
+            System.out.println("С‡РёСЃР»Рѕ СЃР»РёС€РєРѕРј РјР°Р»РµРЅСЊРєРѕРµ");
         }
-        System.out.println("сумма чисел равна: " + (a + b));
+        System.out.println("СЃСѓРјРјР° С‡РёСЃРµР» СЂР°РІРЅР°: " + (a + b));
 
 
     }

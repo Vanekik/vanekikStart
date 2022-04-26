@@ -3,8 +3,8 @@ import java.util.Scanner;
 
 public class Start9 {
     public static void main(String[] args) {
-//        узнать возраст, вводом года рождения и года который сейчас
-        System.out.println("введите год Вашего рождения");
+//        СѓР·РЅР°С‚СЊ РІРѕР·СЂР°СЃС‚, РІРІРѕРґРѕРј РіРѕРґР° СЂРѕР¶РґРµРЅРёСЏ Рё РіРѕРґР° РєРѕС‚РѕСЂС‹Р№ СЃРµР№С‡Р°СЃ
+        System.out.println("РІРІРµРґРёС‚Рµ РіРѕРґ Р’Р°С€РµРіРѕ СЂРѕР¶РґРµРЅРёСЏ");
         int a;
         Scanner sc = new Scanner(System.in);
         while (true) {
@@ -12,19 +12,19 @@ public class Start9 {
             if (a > 1900) {
                 break;
             } else {
-                System.out.println("неверный ввод, попробуйте еще раз");
+                System.out.println("РЅРµРІРµСЂРЅС‹Р№ РІРІРѕРґ, РїРѕРїСЂРѕР±СѓР№С‚Рµ РµС‰Рµ СЂР°Р·");
             }
         }
-        System.out.println("какой сейчас год? ");
-        int с;
+        System.out.println("РєР°РєРѕР№ СЃРµР№С‡Р°СЃ РіРѕРґ? ");
+        int СЃ;
         while (true) {
-            с = sc.nextInt();
-            if (с == 2022) {
+            СЃ = sc.nextInt();
+            if (СЃ == 2022) {
                 break;
             } else {
-                System.out.println("неверный ввод, попробуйте еще раз");
+                System.out.println("РЅРµРІРµСЂРЅС‹Р№ РІРІРѕРґ, РїРѕРїСЂРѕР±СѓР№С‚Рµ РµС‰Рµ СЂР°Р·");
             }
         }
-        System.out.println("ваш возраст: " + (с - a));
+        System.out.println("РІР°С€ РІРѕР·СЂР°СЃС‚: " + (СЃ - a));
     }
 }
